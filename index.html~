@@ -5,9 +5,8 @@
 Tus Press Web
   </title>
 <link rel="stylesheet" type="text/css" href="default.css">
-
 </head>
-<body bgcolor="gray">
+<body>
 <div id="mpage">
 <header id="header">
 <h1 id="title">Tus Press Web </h1>
@@ -16,5 +15,5 @@ Tus Press Web
 <img src="images/newspaper.JPG">
 
 </div>
-</body>
+pwd</body>
 </html>
