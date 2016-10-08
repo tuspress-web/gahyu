@@ -1,0 +1,81 @@
+/*h1{font-size: 40px;}
+h1{color: blue;}*/
+
+/*h1{font-size: 35px;}
+h1{color: Black;}
+h1{font-family: fantasy;}*/
+
+
+@import 'https://fonts.googleapis.com/css?family=Fjalla+One';
+
+
+
+#title{
+	font-size: 30px;
+	line-height: 1.2;
+	margin-bottom: 0;
+	font-family: 'Fjalla One', sans-serif;
+}
+#catchcopy{
+	font-size: 12px;
+	line-height: 1.5;
+	margin-top: 5px;
+	font-family: 'Fjalla One', sans-serif;
+}
+
+#pagefoot{
+	border-top: solid 1px #CCCCCC;
+	margin-top: 15px;
+	font-family: 'Fjalla One', sans-serif;
+	clear: both;
+}
+
+#pagebodymain{
+	width: 720px;
+	float: right;
+}
+#pagebodysub{
+	width: 220px;
+	float: left;
+}
+
+#mpage{
+	width: 980px;
+	margin: auto;
+}
+
+
+.expl{
+	background: #ffffff;
+	width: 500px auto;
+	word-wrap: break-word;/*折り返すようにする*/
+	word-break: break-all;
+	padding: 20px;
+	text-align:center; 
+	border: solid 3px #cccccc;
+
+	margin:30px auto;
+}
+
+article{
+	background: gray;
+	color: black;
+	width: 200px;
+	height: 300px;
+
+	padding: 10px;
+	text-align: center;
+	border: solid 3px green;
+
+	overflow-y: scroll;   /* スクロール表示 */ 
+	display: block;/*ブロック要素として表示する*/
+	float: left;
+}
+
+#article｛
+	/*height: 100px;*/
+}
+
+html{
+	padding: 30px
+}
