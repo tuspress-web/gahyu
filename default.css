@@ -1,14 +1,12 @@
-/*h1{font-size: 40px;}
-h1{color: blue;}*/
-
-/*h1{font-size: 35px;}
-h1{color: Black;}
-h1{font-family: fantasy;}*/
-
-
 @import 'https://fonts.googleapis.com/css?family=Fjalla+One';
 
-
+html{
+	/*width: 100%;*/
+}
+body{
+	background-color: #DDD;
+	/*width: 100%;*/
+}
 
 #title{
 	font-size: 30px;
@@ -23,87 +21,57 @@ h1{font-family: fantasy;}*/
 	font-family: 'Fjalla One', sans-serif;
 }
 
-#s1{
-	display: block;
-	position: absolute;
-	background-position: 50%;
-}
-/* コンテンツ */
-#backNumber{
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	height: 600px;
-	width: 1000px;
-	background-color: blue;
-}
-#information{
-	position: absolute;
-	top: 0px;
-	left: 420px;
-	height: 100px;
-	width: 1000px;
-	background-color: red;
-}
-#mainContent{
-	position: absolute;
-	top: 30px;
-	left: 420px;
-	height: 500px;
-	width: 1000px;
-	background-color: yellow;
-}
-#links{
-	position: absolute;
-	top: 300px;
-	left: 0px;
-	height: 300px;
-	width: 500px;
-	background-color: green;
-}
-#aboutTUSPress{
-	position: absolute;
-	top: 300px;
-	left: 280px;
-	height: 300px;
-	width: 500px;
-	background-color: lightblue;
-}
-#daily{
-	position: absolute;
-	top: 300px;
-	left: 560px;
-	height: 300px;
-	width: 500px;
-	background-color: lightgreen;
-}
-
-
-
-/*
-#pagefoot{
-	border-top: solid 1px #CCCCCC;
-	margin-top: 15px;
-	font-family: 'Fjalla One', sans-serif;
-	clear: both;
-}
-
-#pagebodymain{
-	width: 720px;
-	float: right;
-}
-#pagebodysub{
-	width: 220px;
-	float: left;
-}*/
-
 #mpage{
 	width: 900px;
 	margin: 10px auto;
 	background: #FFFFFF;
 }
 
-
-html{
-	padding: 20px
+#s1{
+	display: block;
+	position: absolute;
+	background-position: 50%;
+	width: 900px;
+	height: 600px;
+}
+/* コンテンツ */
+#backNumber{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 400px;
+	width: 200px;
+	background-color: blue;
+}
+#information{
+	position: absolute;
+	top: 0px;
+	left: 200px;
+	height: 40px;
+	width: 700px;
+	background-color: red;
+}
+#mainContent{
+	position: absolute;
+	top: 40px;
+	left: 200px;
+	height: 360px;
+	width: 700px;
+	background-color: yellow;
+}
+#links{
+	position: absolute;
+	top: 400px;
+	left: 0px;
+	height: 200px;
+	width: 450px;
+	background-color: green;
+}
+#aboutTUSPress{
+	position: absolute;
+	top: 400px;
+	left: 450px;
+	height: 200px;
+	width: 450px;
+	background-color: lightblue;
 }
