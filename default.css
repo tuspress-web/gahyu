@@ -8,23 +8,27 @@ body{
 	/*width: 100%;*/
 }
 
-#title{
-	font-size: 30px;
-	line-height: 1.2;
-	margin-bottom: 0;
-	font-family: 'Fjalla One', sans-serif;
-}
-#catchcopy{
-	font-size: 12px;
-	line-height: 1.5;
-	margin-top: 5px;
-	font-family: 'Fjalla One', sans-serif;
-}
-
-#mpage{
+#mainPage{
 	width: 900px;
 	margin: 10px auto;
 	background: #FFFFFF;
+}
+
+#pagehead {
+	width: 900px;
+	padding-left: 10px;
+	font-family: 'Fjalla One', sans-serif;
+}
+
+.title{
+	font-size: 30px;
+	line-height: 1.2;
+	margin-bottom: 0;
+}
+.catchcopy{
+	font-size: 12px;
+	line-height: 1.5;
+	margin-top: 5px;
 }
 
 #s1{
@@ -74,4 +78,14 @@ body{
 	height: 200px;
 	width: 450px;
 	background-color: lightblue;
+}
+
+#pagefoot{
+	position: absolute;
+	border-top: solid 1px #CCCCCC;
+	top: 700px;
+	width: 900px;
+	text-align: center;
+	font-family: 'Fjalla One', sans-serif;
+	/*clear: both;*/
 }
